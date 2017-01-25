@@ -1,0 +1,47 @@
+.test{
+
+	height: 500px;
+}
+
+.fixed{
+	position: fixed;
+    right: 50px;
+}
+
+.table-of-contents a.active {
+    background-color: #009688;
+    padding: 20px 0 20px 0;
+    border-left: none;
+    height: auto;
+}
+
+.table-of-contents{
+	width: 120px;
+}
+.table-of-contents a{
+	background-color: #263238;
+	color: #fff;
+	border-left: none;
+	text-align:  center;
+	width: 100%;
+	padding: 20px 0 20px 0;
+	height: auto;
+}
+.table-of-contents a.active:hover {
+	background-color: #009688;
+    color: #fff;
+}
+
+
+
+
+.table-of-contents a:hover{
+	background-color: #263238;
+	border-left: none;
+	padding-left: 0;
+	color: #fff;
+}
+
+.table-of-contents li {
+    padding: 0;
+}
